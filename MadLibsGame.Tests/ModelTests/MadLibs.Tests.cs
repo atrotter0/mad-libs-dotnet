@@ -1,9 +1,9 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
-using WordGame.Models;
+using MadLibsGame.Models;
 
-namespace WordGame.Tests
+namespace MadLibsGame.Tests
 {
     [TestClass]
     public class MadLibsTest

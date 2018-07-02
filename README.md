@@ -1,18 +1,12 @@
-# Project Name Here
+# MadLibs with MVC
 
-#### Epicodus C# exercise, date
+#### Epicodus C# exercise, 07.02.18
 
-#### By Your Name Here
+#### By Abel Trotter & Ryan Putman
 
 ## Description
 
-Add a description here
-
-## Specs
-
-| Behavior | Input | Output |
-|----------|-------|--------|
-| Behavior | input | output |
+A program that allows a user to fill out a form and display a MadLibs result.
 
 ## Setup on OSX
 
@@ -20,6 +14,7 @@ Add a description here
 * Download and install Mono
 * Clone the repo
 * Run `dotnet restore` from within the project directory
+* Run `dotnet run` to start the server
 
 ## Contribution Requirements
 
@@ -32,12 +27,8 @@ Add a description here
 
 * .Net Core 1.1.4
 
-## Links
-
-* Add links here
-
 ## License
 
 This software is licensed under the MIT license.
 
-Copyright (c) 2018 **Your Name Here**
+Copyright (c) 2018 **Abel Trotter & Ryan Putman**

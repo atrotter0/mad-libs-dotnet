@@ -10,6 +10,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WordGame\WordGame.csproj" />
+    <ProjectReference Include="..\MadLibsGame\MadLibsGame.csproj" />
   </ItemGroup>
 </Project>
