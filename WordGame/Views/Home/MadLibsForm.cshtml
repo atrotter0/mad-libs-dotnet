@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <title>Mad Libs 2.0</title>
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+</head>
+<body>
+  <div class='container'>
+    <div class="jumbotron">
+      <h1>Mad Libs 2.0</h1>
+    </div>
+    <div class="form">
+      <form id="madlibs-form" action="/mad_libs_results" method="get">
+        <div class="form-group">
+          <label for="occupation">Occupation:</label>
+          <input class="form-control" id="occupation" type="text" name="occupation">
+        </div>
+        <div class="form-group">
+          <label for="nounOne">Noun One:</label>
+          <input class="form-control" id="nounOne" type="text" name="nounOne">
+        </div>
+        <div class="form-group">
+          <label for="nounTwo">Noun Two:</label>
+          <input class="form-control" id="nounTwo" type="text" name="nounTwo">
+        </div>
+        <div class="form-group">
+          <label for="nounThree">Noun Three:</label>
+          <input class="form-control" id="nounThree" type="text" name="nounThree">
+        </div>
+        <div class="form-group">
+          <label for="nounFour">Noun Four:</label>
+          <input class="form-control" id="nounFour" type="text" name="nounFour">
+        </div>
+        <div class="form-group">
+          <label for="adjectiveOne">Adjective One:</label>
+          <input class="form-control" id="adjectiveOne" type="text" name="adjectiveOne">
+        </div>
+        <div class="form-group">
+          <label for="adjectiveTwo">Adjective Two:</label>
+          <input class="form-control" id="adjectiveTwo" type="text" name="adjectiveTwo">
+        </div>
+        <div class="form-group">
+          <label for="verbOne">Verb One:</label>
+          <input class="form-control" id="verbOne" type="text" name="verbOne">
+        </div>
+        <div class="form-group">
+          <label for="verbTwo">Verb Two:</label>
+          <input class="form-control" id="verbTwo" type="text" name="verbTwo">
+        </div>
+        <div class="form-group">
+          <label for="verbThree">Verb Three:</label>
+          <input class="form-control" id="verbThree" type="text" name="verbThree">
+        </div>
+        <button id="form-submit" class="btn btn-danger" type="submit" name="button">Submit</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
